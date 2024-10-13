@@ -6,4 +6,8 @@ In the DNN-Only method, the DNN directly predicts the flow field, which is denor
 The SDF generator and DNN UI are available in repository titled "DNN".    
 Link: https://github.com/Asif-MushtaqAA/DNN  
 
-Note: Make sure to use correct paths for added repository.  
+Note: Make sure to use correct paths for added repository.    
+
+Example Implementation in console  
+from DNN_Only import ResidualBlock, ChannelSpecificDecoder, EncoderDecoderCNN, workflow  
+workflow(58,0.6,2)  
